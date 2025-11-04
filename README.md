@@ -10,7 +10,7 @@ A futuristic browser gaming platform with 5 classic games, glassmorphism UI, and
 
 ## 🚀 Demo
 
-[**🎮 Play Now**](https://your-username.github.io/GameHub) | [**📱 Mobile Demo**](https://your-username.github.io/GameHub)
+[**🎮 Play Now**]((https://gamehub-codesocial.netlify.app/)) | [**📱 Mobile Demo**]((https://gamehub-codesocial.netlify.app/))
 
 ## ✨ Features
 
