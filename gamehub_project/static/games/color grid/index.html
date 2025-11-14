@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ColorGrid</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <header class="topbar">
+      <h1>🎨 ColorGrid</h1>
+      <div class="controls">
+        <label>
+          Size
+          <select id="sizeSelect">
+            <option value="3">3 × 3</option>
+            <option value="4" selected>4 × 4</option>
+            <option value="5">5 × 5</option>
+          </select>
+        </label>
+
+        <button id="shuffleBtn">Shuffle</button>
+        <button id="resetBtn">Reset</button>
+      </div>
+    </header>
+
+    <section class="infobar">
+      <div>Moves: <span id="moves">0</span></div>
+      <div>Best (fewest moves): <span id="best">—</span></div>
+      <div id="message" class="message"></div>
+    </section>
+
+    <main>
+      <div id="gridContainer" class="grid-container"></div>
+      <div class="rotate-panel">
+        <div class="rotate-row-controls">
+          <div class="label">Rotate Row</div>
+          <div id="rowButtons" class="buttons-grid"></div>
+        </div>
+        <div class="rotate-col-controls">
+          <div class="label">Rotate Column</div>
+          <div id="colButtons" class="buttons-grid"></div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <small>Rotate rows/columns to restore the solved pattern. Solve in the fewest moves!</small>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

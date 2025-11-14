@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Candy Match Mania</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-wrapper">
+    <header>
+      <h1>🍬 Candy Match Mania</h1>
+      <div class="hud">
+        <div class="score">Score: <span id="score">0</span></div>
+        <div class="moves">Moves: <span id="moves">30</span></div>
+        <button id="restartBtn">Restart</button>
+      </div>
+    </header>
+
+    <main>
+      <div id="board" class="board" aria-label="Candy match board"></div>
+    </main>
+
+    <footer>
+      <p>Match 3 or more candies in a row or column. Swap adjacent candies to match — cascading refill included.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

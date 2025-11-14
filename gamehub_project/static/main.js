@@ -49,6 +49,30 @@ const games = [
     file: "/static/games/2048.html",
     category: "puzzle"
   },
+  {
+        id: 'sudoku',
+        title: 'Sudoku Puzzle',
+        description: 'Classic number placement puzzle',
+        image: 'https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=400&h=250&fit=crop&crop=center&auto=format&q=80',
+        file: 'games/sudoku.html',
+        category: 'puzzle'
+  },
+  {
+        id: 'minesweeper',
+        title: 'Minesweeper',
+        description: 'Clear the field without hitting mines',
+        image: 'https://images.unsplash.com/photo-1614332287897-cdc485fa562d?w=400&h=250&fit=crop&crop=center&auto=format&q=80',
+        file: 'games/minesweeper.html',
+        category: 'puzzle'
+  },
+  {
+        id: 'breakout',
+        title: 'Breakout',
+        description: 'Break all the bricks with paddle and ball',
+        image: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=400&h=250&fit=crop&crop=center&auto=format&q=80',
+        file: 'games/breakout.html',
+        category: 'arcade'
+  }
 ];
 
 
