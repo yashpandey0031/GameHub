@@ -48,6 +48,14 @@ const games = [
         file: 'games/2048.html',
         category: 'puzzle'
   },
+  {
+        id: 'sudoku',
+        title: 'Sudoku Puzzle',
+        description: 'Classic number placement puzzle',
+        image: 'https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=400&h=250&fit=crop&crop=center&auto=format&q=80',
+        file: 'games/sudoku.html',
+        category: 'puzzle'
+  }
 ];
 
 
