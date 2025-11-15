@@ -31,6 +31,7 @@
 - [🙏 Acknowledgments](#-acknowledgments)
 - [✨ Contributors](#-contributors)
 
+
 ***
 
 ## 💡 About GameHub
@@ -55,6 +56,7 @@ In an era of complex game engines and heavy frameworks, GameHub proves that amaz
 - Implement achievement systems and global leaderboards
 - Create educational tutorials for each game's implementation
 - Build a thriving community of game developers and enthusiasts
+
 
 ***
 
@@ -293,8 +295,14 @@ Thanks to all the wonderful contributors 💖
 See full list of contributor contributions: [Contribution Graph](https://github.com/kaifansariw/GameHub/graphs/contributors)
 
 ***
+ 
 
 <div align="center">
+
+
+
+<div align="center">
+
 
 [⭐ Star this repo](https://github.com/kaifansariw/GameHub) • 
 [🐛 Report Bug](https://github.com/kaifansariw/GameHub/issues) • 
