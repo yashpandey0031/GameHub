@@ -1,4 +1,3 @@
-
 # 🎮 GameHub
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
@@ -10,21 +9,26 @@
 ![GitHub forks](https://img.shields.io/github/forks/kaifansariw/GameHub?style=for-the-badge)
 ![GitHub issues](https://img.shields.io/github/issues/kaifansariw/GameHub?style=for-the-badge)
 
-## 📋 Table of Contents
+> A modern, responsive collection of classic browser games built with vanilla JavaScript, Tailwind CSS, and Django. Play instantly - no downloads required! 🎯
+
+***
+
+## 🧭 Table of Contents
 
 - [🚀 Demo](#-demo)
 - [✨ Features](#-features)
 - [🎮 Games](#-games)
 - [🛠️ Tech Stack](#️-tech-stack)
-- [📁 Project Structure](#-project-structure)
-- [📸 Screenshots](#-screenshots)
 - [💡 Prerequisites](#-prerequisites)
 - [🚀 Quick Start](#-quick-start)
+- [📁 Project Structure](#-project-structure)
+- [📸 Screenshots](#-screenshots)
 - [🔧 Adding New Games](#-adding-new-games)
 - [🌟 Contributing](#-contributing)
 - [📱 Browser Support](#-browser-support)
 - [📄 License](#-license)
 - [🙏 Acknowledgments](#-acknowledgments)
+- [✨ Contributors](#-contributors)
 
 ***
 
@@ -66,6 +70,55 @@
 - **Animations:** AOS.js, Animate.css
 - **Icons:** Font Awesome
 - **Storage:** LocalStorage API
+
+***
+
+## 💡 Prerequisites
+
+- Modern web browser: Chrome, Firefox, Safari, or Edge
+
+***
+
+## 🚀 Quick Start
+
+Follow these steps to run the GameHub Django project locally:
+
+**1️⃣ Clone the Repository**
+
+```bash
+git clone https://github.com/kaifansariw/GameHub.git
+cd GameHub
+```
+
+**2️⃣ Install Django**
+
+```bash
+pip install django
+```
+
+**3️⃣ Navigate to the Project Folder**
+
+Move into the folder where manage.py is located:
+
+```bash
+cd gamehub_project
+```
+
+**4️⃣ Run the Development Server**
+
+```bash
+python manage.py runserver
+```
+
+**5️⃣ Open in Browser**
+
+Visit:
+
+```
+http://127.0.0.1:8000/
+```
+
+Your GameHub website will now be live locally 🎮🚀
 
 ***
 
@@ -120,7 +173,6 @@ GameHub/
 ├── LICENSE
 ├── CODE_OF_CONDUCT.md
 └── README.md
-
 ```
 
 ***
@@ -130,53 +182,14 @@ GameHub/
 <details>
   <summary>Homepage</summary>
   <img width="1920" height="872" alt="image" src="https://github.com/user-attachments/assets/2b55d9b8-0edb-4824-bf75-0e5d2808c325" />
-
 </details>
 
 <details>
   <summary>Games Collection</summary>
   <img width="1331" height="870" alt="image" src="https://github.com/user-attachments/assets/6167e112-e281-4269-9d35-0bdc0ac4176b" />
-
 </details>
 
 ***
-
-## 💡 Prerequisites
-
-- Modern web browser: Chrome, Firefox, Safari, or Edge
-
-***
-
-## 🚀 Quick Start
-Follow these steps to run the GameHub Django project locally:
-
-1️⃣ Clone the Repository
-
-    git clone https://github.com/kaifansariw/GameHub.git
-    
-    cd GameHub
-
-2️⃣ Install Django
-
-    pip install django
-
-3️⃣ Navigate to the Project Folder
-
-Move into the folder where manage.py is located:
-
-    cd gamehub_project
-
-4️⃣ Run the Development Server
-
-    python manage.py runserver
-
-5️⃣ Open in Browser
-
-Visit:
-
-    http://127.0.0.1:8000/
-
-Your GameHub website will now be live locally 🎮🚀`
 
 ## 🔧 Adding New Games
 
@@ -202,8 +215,10 @@ Your GameHub website will now be live locally 🎮🚀`
 - Fork the repository
 - Create a new branch: `git checkout -b feature/YourFeature`
 - Commit & push:  
-  `git commit -m "Add: YourFeature"`  
-  `git push origin feature/YourFeature`
+  ```bash
+  git commit -m "Add: YourFeature"
+  git push origin feature/YourFeature
+  ```
 - Open a Pull Request
 
 ***
@@ -235,19 +250,24 @@ Licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 ***
 
+## ✨ Contributors
+
+Thanks to all the wonderful contributors 💖
+
+<a href="https://github.com/kaifansariw/GameHub/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=kaifansariw/GameHub" />
+</a>
+
+See full list of contributor contributions: [Contribution Graph](https://github.com/kaifansariw/GameHub/graphs/contributors)
+
+***
+
 <div align="center">
 
-[⭐ Star this repo](https://github.com/kaifansariw/GameHub) - 
-[🐛 Report Bug](https://github.com/kaifansariw/GameHub/issues) - 
-[✨ Request Feature](https://github.com/kaifansariw/GameHub/issues)  
+[⭐ Star this repo](https://github.com/kaifansariw/GameHub) • 
+[🐛 Report Bug](https://github.com/kaifansariw/GameHub/issues) • 
+[✨ Request Feature](https://github.com/kaifansariw/GameHub/issues)
+
 Made with ❤️ by [Kaif Ansari](https://github.com/kaifansariw)
 
 </div>
-
-# ✨ Contributors
-
-#### Thanks to all the wonderful contributors 💖
-
-<a href="https://github.com/kaifansariw/GameHub/graphs/contributors"> <img src="https://contrib.rocks/image?repo=kaifansariw/GameHub" /> </a>
-
-#### See full list of contributor contribution [Contribution Graph]([https://github.com/kaifanasariw/GameHub/graphs/contributors](https://github.com/kaifansariw/GameHub/graphs/contributors))
